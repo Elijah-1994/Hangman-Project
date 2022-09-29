@@ -28,3 +28,6 @@ placed the block of code that asks for the user input to guess a chacater in a d
 
 key note - you can call functions within a function. use return to store the variable and call the function within the function call. (i.e check_guess(ask_for_input())). 
 
+Milestone 3
+
+defined the class using the class syntax. The init method is used to intialise the first instance of the class. The atritbutes are defined by the parameters.
