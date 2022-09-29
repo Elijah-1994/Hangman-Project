@@ -31,3 +31,8 @@ key note - you can call functions within a function. use return to store the var
 Milestone 3
 
 defined the class using the class syntax. The init method is used to intialise the first instance of the class. The atritbutes are defined by the parameters.
+
+
+Milestone 4
+
+the game was defined using the play_game method to call to various methods.
