@@ -37,29 +37,24 @@ class Hangman:
             self.num_lives -= 1
             print (f"sorry {guess} is not in the word") 
             print(f"you have {self.num_lives} lives left")
-    
-        while self.num_lives == 0:
-            print ("you lost!")
-        
-        while self.num_letters > 0:
-            return
-        
-        while self.num_lives > 0 and self.num_letters == 0:
-            print ("congratulations you won the game")
-            return
               
     pass     
 
 def play_game():
     game = Hangman(word_list,num_lives=5)
-    game.check_guess(game.ask_for_input())
-    game.check_guess(game.ask_for_input())
-    game.check_guess(game.ask_for_input())
-    game.check_guess(game.ask_for_input())
-    game.check_guess(game.ask_for_input())
-    game.check_guess(game.ask_for_input())
-    game.check_guess(game.ask_for_input())
-    game.check_guess(game.ask_for_input())  
+    
+    while True:
+        if game.num_lives == 0:
+            print ("you lost!")
+            break
+        
+        elif game.num_letters > 0:
+            game.check_guess(game.ask_for_input())
+        
+        elif game.num_lives != 0 and game.num_letters == 0:
+            print ("congratulations you won the game")
+            break
+
     pass
 
 if __name__ == '__main__':
