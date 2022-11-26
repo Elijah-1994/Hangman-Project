@@ -17,7 +17,7 @@ class Hangman:
     
     def __init__ (self,word_list,num_lives=5):
         '''
-        See help(Hangman) for accurate signature
+        See help(Hangman) for accurate signature.
         
         '''
         self.word_list = word_list
