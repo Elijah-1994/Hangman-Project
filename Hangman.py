@@ -91,6 +91,7 @@ def play_game():
         
         elif game.num_lives != 0 and game.num_letters == 0:
             print ("congratulations you won the game")
+            print ("hello")
             break
 
     pass
