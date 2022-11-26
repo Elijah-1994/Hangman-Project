@@ -61,7 +61,12 @@ Figure 3 - Milestone 3 script.
 &nbsp;
 
 
-## Milestone 4 - Containerising the scraper
+## Milestone 4 - Putting it all together
+&nbsp;
 
+__play_game method__
 
+The play game method contains the logic of the game and determines how the game will end.
+The logic behind this method is to determine if the user will win or loose the game and how to keep the game loop running until this result is determined.
 
+In order to complete this logic a while loop is coded in this 
