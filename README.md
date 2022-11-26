@@ -25,6 +25,7 @@ __ask_for_input method__
 
 The code written in milestone 1 was encapsulated into the __ask_for_input method__ and returns the guessed letter in string format.
 &nbsp;
+
 __check_guess method__
 
 The method takes in the guessed letter returned from the __ask_for_input method__ as an argument and a for if/else statements within a for loop is coded to check if the guessed letter is in the chosen word.
