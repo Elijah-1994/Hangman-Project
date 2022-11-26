@@ -23,23 +23,21 @@ Figure 1 - Milestone 1 script.
 __ask_for_input method__
 &nbsp;
 
-The code written in milestone 1 was encapsulated into the __ask_for_input method__ and returns the guessed letter in string format.
+The code written in milestone 1 was encapsulated into the &ensp;__ask_for_input method__&ensp; and returns the guessed letter in string format.
+
 &nbsp;
 
 __check_guess method__
 
-The method takes in the guessed letter returned from the __ask_for_input method__ as an argument and a for if/else statements within a for loop is coded to check if the guessed letter is in the chosen word.
-&nbsp;
+In order to check if the guessed letter is in the word, the &ensp;__ask_for_input method__&ensp; is placed within the function call of the &ensp;__check_guess method__&ensp; so that 
+the guessed letter returned from the &ensp;__ask_for_input method__&ensp; is passed as an argument in the  &ensp;__check_guess method__&ensp;. Within the &ensp; __check_guess method__&ensp;. A for loop is coded to iterate through an index of each letter in the word and if/else statements is coded within the for loop to check if the guessed letter is in the word.
 
 &nbsp;
-
 
 ![Alt text](Project_Images/Milstone%202.PNG)
 Figure 2 - Milestone 2 script.
 
 &nbsp;
-
-
 
 ## Milestone 3 - Create the game class
 
