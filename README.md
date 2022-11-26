@@ -69,4 +69,4 @@ __play_game method__
 The play game method contains the logic of the game and determines how the game will end.
 The logic behind this method is to determine if the user will win or loose the game and how to keep the game loop running until this result is determined.
 
-In order to complete this logic a while loop is coded in this 
+In order to complete this logic a while loop is coded in this which first check if the number of lives is 0 and if not a elif statement is used to call the __check_guess method__ so that the player can enter another letter. If the number of lives is not 0 and the number of letters is 0 then the player will win the game.
