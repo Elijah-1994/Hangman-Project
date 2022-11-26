@@ -31,4 +31,3 @@ def check_guess(guess):
     
 check_guess(ask_for_input())    
 
-print ("hello word")
