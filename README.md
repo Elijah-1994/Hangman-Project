@@ -30,7 +30,7 @@ The code written in milestone 1 was encapsulated into the &ensp;__ask_for_input 
 __check_guess method__
 
 In order to check if the guessed letter is in the word, the &ensp;__ask_for_input method__&ensp; is placed within the function call of the &ensp;__check_guess method__&ensp; so that 
-the guessed letter returned from the &ensp;__ask_for_input method__&ensp; is passed as an argument in the  &ensp;__check_guess method__&ensp;. Within the &ensp; __check_guess method__&ensp;. A for loop is coded to iterate through an index of each letter in the word and if/else statements is coded within the for loop to check if the guessed letter is in the word.
+the guessed letter returned from the &ensp;__ask_for_input method__&ensp; is passed as an argument in the  &ensp;__check_guess method__&ensp;. Within the &ensp;__check_guess method__&ensp;. A for loop is coded to iterate through an index of each letter in the word and if/else statements is coded within the for loop to check if the guessed letter is in the word.
 
 &nbsp;
 
@@ -43,12 +43,14 @@ Figure 2 - Milestone 2 script.
 
 &nbsp;
 
-In order to code a complete hangman the use of object orientated programming (OOP).
+In order to code a complete hangman game the use of object orientated programming (OOP) is required.
 &nbsp;
 
 __init method__
 
-The init method is used to initialise the first instance of the hangman class. The attributes of the class are defined by the parameters. The parameters allow for a complete game loop as they serve multiple purposes such as initialising the starting number of lives and keeping track of the guessed letters. in order the initiate an instance of the class the the class must first be called and then the methods in the class can be called. 
+The init method is used to initialise the first instance of the hangman class. The first argument within the methods in the class will be self. The second argument in the __init method__ is the word_list and the third argument is the __number of lives__ the player has which is set to a default of 5.
+
+The attributes of the class are defined by the parameters. The parameters allow for a complete game loop as they serve multiple purposes such as initialising the starting number of lives and keeping track of the guessed letters. in order the initiate an instance of the class the the class must first be called and then the methods in the class can be called. 
 
 ![Alt text](Project_Images/Milstone%203.PNG)
 Figure 3 - Milestone 3 script.
