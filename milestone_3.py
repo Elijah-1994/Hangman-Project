@@ -38,11 +38,7 @@ class Hangman:
             self.num_lives -= 1
             print (f"sorry {guess} is not in the word") 
             print(f"you have {self.num_lives} lives left")
-            print ("hello")
-
-           
-           
-
+        
 object_1 = Hangman(['apple', 'banana', 'orange', 'pear', 'strawberry', 'watermelon'])
 object_1.check_guess(object_1.ask_for_input())
  
