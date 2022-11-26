@@ -1,10 +1,9 @@
 # Hangman-Project
-&nbsp;
+
 
 The aim of this project is implement the use of python classes to play the hangman game. 
 
 &nbsp;
-
 
 ## Milestone 1 - Create the variables for the game. 
 &nbsp;
