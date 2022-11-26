@@ -1,7 +1,7 @@
 # Hangman-Project
 
 
-The aim of this project is implement the use of python classes to play the hangman game. 
+The aim of this project is implement the use of python classes to create to the classic hangman game. 
 
 &nbsp;
 
