@@ -16,4 +16,3 @@ word_list = random.choice(word_list)
 
 print (word_list)
 
-finally
