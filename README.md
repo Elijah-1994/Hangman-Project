@@ -50,7 +50,7 @@ __init method__
 
 The init method is used to initialise the first instance of the hangman class. The first argument within the methods in the class will be self. The second argument in the __init method__ is the word_list and the third argument is the __number of lives__ the player has which is set to a default of 5.
 
-The attributes of the class are defined by the parameters. The parameters allow for a complete game loop as they serve multiple purposes such as initialising the starting number of lives and keeping track of the guessed letters. in order the initiate an instance of the class the the class must first be called and then the methods in the class can be called. 
+The attributes of the class are defined by the parameters. Each parameter will be  assigned with a self.name as a variable name. The parameters within the __init method__ allow for a complete game loop as they serve multiple purposes such as initialising the starting number of lives and keeping track of the guessed letters. in order the initiate an instance of the class the the class must first be called and then the methods in the class can be called. 
 
 ![Alt text](Project_Images/Milstone%203.PNG)
 Figure 3 - Milestone 3 script.
@@ -69,3 +69,5 @@ The play game method contains the logic of the game and determines how the game 
 The logic behind this method is to determine if the user will win or loose the game and how to keep the game loop running until this result is determined.
 
 In order to complete this logic a while loop is coded in this which first check if the number of lives is 0 and if not a elif statement is used to call the __check_guess method__ so that the player can enter another letter. If the number of lives is not 0 and the number of letters is 0 then the player will win the game.
+
+game.etc method
