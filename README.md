@@ -21,7 +21,6 @@ Figure 1 - Milestone 1 script.
 &nbsp;
 
 __ask_for_input method__
-
 &nbsp;
 
 The code written in milestone 1 was encapsulated into the __ask_for_input method__ and returns the guessed letter in string format.
