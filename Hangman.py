@@ -78,7 +78,6 @@ def play_game():
         This method is used to end the game. If the number of lives is 0, the player looses the game. If not the method will call the
         player the guess another letter. If the number of lives is not 0 and the number of letters is 0, the player wins the game.
         
-
     '''   
     game = Hangman(word_list,num_lives=5)
     
