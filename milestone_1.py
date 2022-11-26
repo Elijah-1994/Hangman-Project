@@ -1,4 +1,4 @@
-guess = input("please enter a single letter"
+guess = input("please enter a single letter")
 
 if guess == 1:
     print ("Good guess")
