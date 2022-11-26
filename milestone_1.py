@@ -15,3 +15,5 @@ word_list = ['apple', 'banana', 'orange', 'pear', 'strawberry', 'watermelon']
 word_list = random.choice(word_list)
 
 print (word_list)
+
+finally
