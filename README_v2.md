@@ -13,9 +13,8 @@ The first step is to create a list which contains a string of each fruit. The __
 
 &nbsp;
 
-![Selelium module](project_images/Milestone_1-Selenium-module.PNG)
-
-*Figure 1 - selenium import in python*
+![Alt text](Project_Images/Milstone%201.PNG)
+*Figure 1 - Milestone 1 script.
 
 &nbsp;
 
