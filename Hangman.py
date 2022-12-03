@@ -16,7 +16,7 @@ class Hangman:
     
     def __init__(self,word_list,num_lives=5):
         '''
-        See help(Hangman) for accurate signature
+        See help(Hangman) for accurate signature.
         
         Parameters:
             self.word_list: The list of words in the game.
@@ -32,7 +32,7 @@ class Hangman:
         self.word_guess = "_"*len(self.word)
         self.word_guess = list(self.word_guess)
         self.word_guess_length = len(self.word_guess)
-        self.num_lives = 5
+        self.num_lives = num_lives
         self.num_letters = set(self.word)
         self.num_letters = len(self.num_letters)
         self.list_of_guesses = []
