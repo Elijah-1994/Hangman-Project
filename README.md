@@ -48,16 +48,16 @@ In order to code a complete hangman game the use of object orientated programmin
 
 __init method__
 
-The init method is used to initialise the first instance of the Hangman Class. The first argument within the method is self. The second argument in the __init method__ is the word_list and the third argument is the __number of lives__ the player has which is set to a default of 5.
+The init method is used to initialise attributes of the Hangman Class. The first argument within the method is self. The second argument in the __init method__ is the word_list and the third argument is the __number of lives__ the player has which is set to a default of 5.
 
-The attributes of the class are defined by the parameters. Each parameter is assigned as  self.name as a variable name. This is to ensure that the script does not throw out a positional arguments error. The parameters within the __init method__ allow for a complete game loop as they serve multiple purposes such as initialising the starting number of lives and keeping track of the guessed letters. The full list of parameter are below:
+The attributes of the class are defined by the parameters. Each parameter is assigned as  self.name as a variable name. This is to ensure that the script does not throw out a positional arguments error. The parameters within the __init method__ allow for a complete game loop as they serve multiple purposes such as initialising the starting number of lives and keeping track of the guessed letters. The full list of parameters are below:
 
-* Self.word_list: The list of words in the game.
-* Self.word: The word chosen randomly from the list of words.
-* Self.word_guess: The chosen word hidden in "_" string to be guessed by the player.
-* Self.num_lives: The starting number of lives.
-* Self.num_letters: Contains the number of unique letters chosen by the player.
-* Self.list_of_guesses: List of the unique letters guessed by the player.
+    self.word_list: The list of words in the game.
+    self.word: The word chosen randomly from the list of words.
+    self.word_guess: The chosen word hidden in "_" string to be guessed by the player.
+    self.num_lives: The starting number of lives.
+    self.num_letters: Contains the number of unique letters chosen by the player.
+    self.list_of_guesses: List of the unique letters guessed by the player.
 
 in order the initiate an instance of the class the the class must first be called and then the methods within in the class can be called. 
 
