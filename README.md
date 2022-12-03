@@ -72,7 +72,7 @@ Figure 3 - Milestone 3 script.
 __check_guess method__
 &nbsp;
 
-The advantage of OOP is that the parameters within __init method__ can be updated as a global variable. To take advantage of this within the __check_guess method__  the self.num_letters parameter is coded to decrease by 1 each time a correct letter is guessed and the self.num_lives parameter is coded to decrease by 1 each time an incorrect letter is guessed.
+In the &ensp;__check_guess method__&ensp;, the self.num_letters parameter is coded to decrease by 1 each time a correct letter is guessed and the self.num_lives parameter is coded to decrease by 1 each time an incorrect letter is guessed.
 &nbsp;
 
 
@@ -81,5 +81,5 @@ __play_game method__
 The play game method contains the logic of the game and determines how the game will end.
 The logic behind this method is to determine if the user will win or loose the game and to keep the game loop running until this result is determined.
 
-In order to complete this logic a while loop is coded which first checks if the number of lives is 0 which means the user looses and the loop is broken. If not then an elif statement is used to call the __check_guess method__ so that the player can enter another letter. If the number of lives is not 0 and the number of letters is 0 then the player will win the game and the while loop will break. Since parameters initialised in the __init__ method are only the first instance of the class, the parameters are only defined within the __init__ method and cannot be called in other methods. In order to call the methods in the class and check the parameters within the __play_game method__ the function and parameter calls should start with game.method or parameter.
+In order to complete this logic a while loop is coded which first checks if the number of lives is 0 which means the user looses and the loop is broken. If not then an elif statement is used to call the __check_guess method__ so that the player can enter another letter. If the number of lives is not 0 and the number of letters is 0 then the player will win the game and the while loop will break. The parameters are only defined within the __init__ method and cannot be called in other methods. In order to call the methods in the class and check the parameters within the __play_game method__ the function and parameter calls should start with game.method or parameter.
 
