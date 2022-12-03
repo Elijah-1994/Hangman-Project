@@ -59,20 +59,15 @@ The attributes of the class are defined by the parameters. Each parameter is ass
     self.num_letters: Contains the number of unique letters chosen by the player.
     self.list_of_guesses: List of the unique letters guessed by the player.
 
-in order the initiate an instance of the class the the class must first be called and then the methods within in the class can be called. 
-
 
 ![Alt text](Project_Images/Milstone%203.PNG)
 Figure 3 - Milestone 3 script.
 
 
-
 &nbsp;
-
 
 ## Milestone 4 - Putting it all together
 &nbsp;
-
 
 __check_guess method__
 &nbsp;
